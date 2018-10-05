@@ -1,0 +1,464 @@
+body {
+	color: white;
+	font-family: sans-serif;
+	background-image: url(imagen/balondibujo.png), url(imagen/cesped_oscuro.Jpg);
+	background-attachment: fixed;
+
+	/* ...............titulo logo siglas..........*/
+}
+
+.flexboxtop {
+	display: flex;
+	flex-direction: row;
+}
+
+.titulosiglas {
+	position: relative;
+	top: -63px;
+	right: -6px;
+	color: #a0f72b;
+	text-shadow:
+		-2px -2px 0 #033949,
+		2px -2px 0 #033949,
+		-2px 2px 0 #033949,
+		2px 2px 0 #033949;
+	text-decoration-line: underline;
+	font-size: 80px;
+	letter-spacing: 1px;
+	font-family: monospace;
+
+}
+
+.titulotop {
+	position: relative;
+	top: -127px;
+	right: -4px;
+	text-align: center;
+	font-size: 30px;
+	color: #033949;
+	font-family: fantasy;
+	text-shadow:
+		-1px -1px 0 #f5f8f9,
+		1px -1px 0 #f5f8f9,
+		-1px 1px 0 #f5f8f9,
+		1px 1px 0 #f5f8f9;
+
+}
+
+.heade {
+	border-style: solid;
+	border-width: 3px;
+	border-color: #a0f72b;
+	border-bottom: none;
+	margin-top: 20px;
+	height: 250px;
+
+	background-image: url(imagen/design2_image1.jpg);
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+
+
+}
+
+/*.......informacion entre header y navegadorrrr.............*/
+#mid {
+	background-color: black;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #a0f72b;
+	border-top: none;
+	border-bottom: none;
+	font-size: 18px;
+	height: 35px;
+	letter-spacing: 5px;
+	color: white;
+	text-align: center;
+	margin: 0px;
+	padding-top: 2px;
+	padding-bottom: 20px;
+
+}
+
+.titulo2 {
+	text-align: center;
+	text-shadow: 2px 4px black;
+	position: relative;
+	top: -15px;
+}
+
+/*.........................navegador......................*/
+.navegador {
+	border-radius: 0px 0px 25px 25px;
+	background-color: #a0f72b;
+	text-align: center;
+
+
+}
+
+.navegadorfooter {
+	border-radius: 25px 25px 25px 25px;
+	background-color: #a0f72b;
+	text-align: center;
+	margin-top: 200px;
+
+}
+
+.link {
+
+
+	font-size: 18px;
+	font-family: sans-serif;
+	font-weight: 900;
+	display: inline-block;
+	padding: 4px;
+	color: black;
+	position: relative;
+	top: -0px;
+	right: 0px;
+
+}
+
+.link:hover {
+
+	background-color: #033949;
+	color: white;
+}
+
+a:link {
+	color: black;
+	text-decoration-color: black;
+
+
+}
+
+/*contenidos inicio ,contact................*/
+
+.h3home {
+	color: #a0f72b;
+
+}
+
+.flexemail {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 300px;
+	margin-right: 300px;
+	background: #0000009e;
+	font-size: 22px;
+	text-align: left;
+	margin-top: 20px;
+}
+
+.emailcolor {
+	background-color: #ffffff2e;
+
+
+}
+
+.contenido {
+	display: block;
+	margin-left: 300px;
+	margin-right: 300px;
+	background: #0000009e;
+	font-size: 22px;
+	text-align: left;
+	padding: 20px;
+	padding-top: unset;
+	margin-top: 20px;
+
+}
+
+.contenidoemail {
+	display: block;
+	padding-left: 20px;
+	font-size: 22px;
+	text-align: left;
+}
+
+.emailimagen {
+	height: 100px;
+	width: 100px;
+	background-image: url(imagen/email4.png);
+	background-color: #f3f8f82b;
+	border-radius: 50%;
+}
+
+.h2about {
+	color: #a0f72b;
+}
+
+/*----------------logo------------------------------*/
+
+.toplogo {
+	width: 135px;
+	height: 135px;
+
+}
+
+.logo11 {
+	width: 135px;
+	height: 135px;
+
+}
+
+
+.logoo {
+	width: 200px;
+	height: 200px;
+}
+
+#logo {
+	display: inline;
+	position: relative;
+	top: -119px;
+	right: 1px;
+}
+
+/*....................contenidos y listas reglas.............*/
+section {
+	text-align: center;
+	margin-left: 300px;
+	margin-right: 300px;
+	padding: 20px;
+	padding-top: inherit;
+}
+
+.tdempty {
+	empty-cells: hide;
+
+}
+
+.colortituloreglas {
+	color: #a0f72b;
+	text-decoration-line: underline;
+}
+
+.h3reglas {
+	color: #a0f72b;
+	margin-bottom: 0px;
+	text-align: left;
+}
+
+li {
+	margin-bottom: 12px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.normaltext {
+	font-weight: normal;
+}
+
+.puntoslista {
+	list-style-type: square;
+
+}
+
+.puntovacio {
+	list-style-type: circle;
+}
+
+.listaletras {
+	list-style-type: lower-alpha;
+
+}
+
+.textorules {
+	font-size: 18px;
+	background: #0000009c;
+
+}
+
+/*...........Tabla de juego........... */
+.outabla {
+	border-spacing: 35px 2px;
+	font-size: 18px;
+	text-align: left;
+	background-color: #020202b8;
+	margin-top: 50px;
+	padding-top: 5px;
+}
+
+.tabla {
+	background-color: #0d5f0db8;
+	width: 100%;
+	text-align: left;
+	border-style: solid;
+	border-width: 4px;
+	border-color: #a0f72b26;
+	border-collapse: separate;
+	border-spacing: 5px 2px;
+	margin-bottom: 35px;
+	border-radius: 15px 15px 15px 15px;
+}
+
+.tabla tr {
+
+	border-style: solid;
+	border-width: 1px;
+
+}
+
+.tabla2 {
+	width: 100%;
+	text-align: left;
+
+}
+
+.th {
+	background-color: #a0f72b;
+	color: black;
+	border-radius: 6px;
+}
+
+.normaltextgame {
+	font-weight: normal;
+}
+
+.h2topgame {
+	text-align: center;
+}
+
+.informaciongame {
+	margin-bottom: 70px;
+}
+
+.negrita {
+	font-weight: bold;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-top: 20px;
+	font-size: 20px;
+	background: #0000009c;
+	padding: 5px;
+	font-size: 20px;
+}
+
+.october {
+
+	padding-right: 23px;
+	text-align: left;
+}
+
+.registrotitulo {
+	text-align: center;
+}
+
+/*...................maps..................*/
+.gamelocation {
+	text-align: center;
+	text-decoration-line: underline;
+	color: #a0f72b;
+}
+
+.mapsflex {
+	margin-right: 300px;
+	margin-left: 300px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-content: space-between;
+	background: #0000009c;
+	padding-bottom: 20px;
+}
+
+.maps {
+	margin: 10px;
+}
+
+.h4maps {
+	text-decoration-line: underline;
+}
+
+.linkmaps {
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: 700;
+	color: white;
+
+}
+
+/* .................Form.................. */
+
+.formulario {
+	align-content: center;
+	margin-left: 250px;
+	margin-right: 250px;
+
+}
+
+.fieldset {
+
+	background-color: #0d5f0db8;
+}
+
+.personalinfo {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.firstname,
+.lastname,
+.city,
+.zip,
+.birth,
+.gender,
+.phone,
+.email,
+.parent,
+.phone,
+.email {
+	width: 48%;
+	margin-bottom: 10px;
+
+}
+
+.input {
+	width: 100%;
+
+}
+
+.address,
+.grade,
+.parent {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+
+.formpermission {
+	text-decoration-line: underline;
+}
+
+.legend {
+	color: #a0f72b;
+}
+
+.sendbottom {
+	margin-top: 20px;
+	font-size: 25px;
+	font-weight: bold;
+	align-content: center;
+	border-radius: 10px 10px 10px 10px;
+	background-color: darkgrey;
+}
+
+.uniform {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.divuniform {
+	flex-grow: 1;
+
+}
